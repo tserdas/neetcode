@@ -1,4 +1,4 @@
-package arraysHashing;
+package arrayshashing;
 
 public class L392IsSubsequence {
     /*

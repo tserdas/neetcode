@@ -1,8 +1,4 @@
-package arraysHashing;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+package arrayshashing;
 
 /*
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.

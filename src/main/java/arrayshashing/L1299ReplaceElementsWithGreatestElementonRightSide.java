@@ -1,4 +1,4 @@
-package arraysHashing;
+package arrayshashing;
 
 public class L1299ReplaceElementsWithGreatestElementonRightSide {
     /*
@@ -33,6 +33,7 @@ public class L1299ReplaceElementsWithGreatestElementonRightSide {
      */
     public static void main(String[] args) {
         int[] res = replaceElements(new int[]{17,18,5,4,6,1});
+        System.out.println(res);
     }
 
     public static int[] replaceElements(int[] arr) {
