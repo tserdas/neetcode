@@ -33,9 +33,9 @@ strs[i] consists of lowercase English letters.
  */
 public class L49GroupAnagrams {
     public static void main(String[] args) {
-
+        List<List<String>> response=groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"});
     }
-    public List<List<String>> groupAnagrams(String[] strs){
+    public static List<List<String>> groupAnagrams(String[] strs){
         List<List<String>> response = new ArrayList<>();
         HashMap<String,ArrayList<String>> map = new HashMap<>();
         for(String s : strs){
