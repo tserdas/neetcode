@@ -38,9 +38,9 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
  */
 public class L1TwoSum {
     public static void main(String[] args) {
-
+        int[] response = twoSum(new int[]{2,7,11,15},9);
     }
-    public int[] twoSum(int[] nums,int target){
+    public static int[] twoSum(int[] nums,int target){
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i=0;i<nums.length;i++){
             if(map.containsKey(target-nums[i]))
